@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: auto;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    background-color: #EDE6DB;
+}
+
+.heading1 {
+    font-family: montserrat;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: montserrat;
+    text-align: justify;
+    font-size: 16px;
+    color: black;
+}
+
+.gambar {
+    padding: 10px;
+}

@@ -1,0 +1,53 @@
+.Box {
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 40px;
+  background: #68A7AD;
+  position: bottom;
+  bottom: 0;
+  width: 1143px;
+  height: 52px;
+}
+   
+@media (max-width: 100px) {
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100px;
+}
+}
+.Column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.Row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 32px;
+}
+
+.FooterLink {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.Heading {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom:20px;
+  font-weight: bold;
+  text-align: center;
+}
+.Body {
+    font-size: 14px;
+    color: #fff;
+    margin-top:30px;
+    text-align: center;
+  }
