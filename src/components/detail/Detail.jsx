@@ -1,4 +1,4 @@
-import './detail.css'
+import './detail.scss'
 
 function Detail() {
   return (

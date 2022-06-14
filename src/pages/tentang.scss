@@ -1,0 +1,17 @@
+.tentang {
+    display: flex;
+
+    .container {
+        flex: 6;
+        background-color: #d2ebccd3;
+
+        .widgets {
+            display: flex;
+            margin-left: 70px;
+            margin-right: 70px;
+            padding: 20px;
+            gap: 100px;
+        }
+
+    }
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import './App.css';
 import Tentang from './pages/Tentang';
 import PetaAdat from './pages/PetaAdat';
 import DataAdat from './pages/DataAdat';

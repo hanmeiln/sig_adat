@@ -1,0 +1,47 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    background-color: white;
+
+    .judul {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: montserrat;
+        text-align: left;
+    }
+    
+    .isi {
+        align-items: flex-start;
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    img{
+    
+    }
+    
+    .left {
+        flex: 1;
+        width: 500px;
+        height: 250px;
+        border-radius: 5%;
+    }
+    
+    .right {
+        flex: 2;
+        overflow-y: auto;
+        flex-wrap: wrap;
+        text-align: justify;
+        padding-left: 40px;
+        max-height: 400px;
+    
+    }
+    
+}

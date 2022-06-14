@@ -1,0 +1,63 @@
+.lpcontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+    .heading1 {
+        font-family: montserrat;
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+    .left {
+        flex: 1;
+
+        img {
+            width: 600px;
+            height: 400px;
+        }
+    }
+
+    .right {
+        flex: 2;
+        padding-right: 20px;
+        padding-top: 80px;
+        font-family: montserrat;
+        text-align: right;
+
+        .judul {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .subjudul {
+            margin-top: 8px;
+            font-size: 26px;
+        }
+
+        .isi {
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 30px;
+            margin-left: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border-style: none;
+            background-color: #4B5D67;
+            font-weight: 600;
+            cursor: pointer;
+            color: white;
+            transition: 0.2s all ease-in;
+    
+            &:hover {
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);
+                background-color: #D3EBCD;
+            }
+        }
+    }
+}

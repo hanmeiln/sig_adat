@@ -1,0 +1,40 @@
+.lpcontent2 {
+    padding-top: 30px;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 50px;
+    background-color: white;
+
+    .judul {
+        text-align: center;
+        font-family: montserrat;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .isi {
+        margin-top: 30px;
+        text-align: justify;
+        font-family: montserrat;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    button {
+        margin-top: 30px;
+        margin-left: 320px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border-style: none;
+        background-color: #4B5D67;
+        font-weight: 600;
+        cursor: pointer;
+        color: white;
+        transition: 0.2s all ease-in;
+
+        &:hover {
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);
+            background-color: #D3EBCD;
+        }
+    }
+}
