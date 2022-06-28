@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import Tentang from './pages/Tentang';
-import PetaAdat from './pages/PetaAdat';
-import DataAdat from './pages/DataAdat';
-import DetailAdat from './pages/DetailAdat';
+import Tentang from './pages/Tentang/Tentang';
+import PetaAdat from './pages/PetaAdat/PetaAdat';
+import DataAdat from './pages/DataAdat/DataAdat';
+import DetailAdat from './pages/DetailAdat/DetailAdat';
 
 function App() {
   return (
@@ -13,8 +13,13 @@ function App() {
           <Route path='/'>
           <Route index element={<Tentang/>} />
           <Route path='peta' element={<PetaAdat/>} />
-          <Route path='dataadat' element={<DataAdat/>} />
-          <Route path='detailadat' element={<DetailAdat/>} />
+          <Route path='dataadat'>
+            <Route index element={<DataAdat />} />
+            <Route 
+                path=":cultureId" 
+                element={<DetailAdat/>} 
+            />
+          </Route>
           </Route>
         </Routes>
       </BrowserRouter>

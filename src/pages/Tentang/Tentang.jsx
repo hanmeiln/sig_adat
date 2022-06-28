@@ -1,10 +1,10 @@
-import Footer from "../components/footer/Footer";
-import LandingPageContent from "../components/landingpage/LandingPageContent";
+import Footer from "../../components/footer/Footer";
+import LandingPageContent from "../../components/landingpage/LandingPageContent";
 // import LandingPageContent2 from "../components/landingpage/LandingPageContent2";
-import Widget from "../components/widget/Widget";
-import Navbar from "../components/navbar/Navbar";
+import Widget from "../../components/widget/Widget";
+import Navbar from "../../components/navbar/Navbar";
 import './tentang.scss';
-import LandingPageContent2 from "../components/landingpage/LandingPageContent2";
+import LandingPageContent2 from "../../components/landingpage/LandingPageContent2";
 
 const Tentang = () => {
     return (
