@@ -65,7 +65,7 @@ const DetailAdat = () => {
                         <Tabs value={value} onChange={handleChange}>
                             <Tab label="Deskripsi" />
                             <Tab label="Foto" />
-                            <Tab label="Video" />
+                            {/* <Tab label="Video" /> */}
                         </Tabs>
                     </Box>
                 </div>

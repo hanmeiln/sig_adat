@@ -10,9 +10,8 @@ const LandingPageContent = () => {
                 <div className='judul'>Warisan Budaya Tak Benda</div>
                 <div className="subjudul">Pemetaan Adat Istiadat di Indonesia</div>
                 <div className="isi">
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
+                    Website ini berisi data adat istiadat di seluruh Indonesia. Terdapat data
+                    adat istiadat berupa peta persebaran berdasarkan provinsi. 
                 </div>
                 <a href="/peta">
                     <button>Lihat Peta</button>
