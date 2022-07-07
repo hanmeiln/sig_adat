@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../../components/navbar/Navbar"
-//import Footer from "../Footer/Footer.js";
 import Datatable from "../../components/datatable/Datatable";
-//import React, { useEffect, useState } from "react";
-//import Ritus from "../DataRitus/Ritus";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import SelectFilter from "../../components/selectfilter/SelectFilter";
-//import provinces from "../../../data/Indonesia.json";
-// import ritus from "../../../data/ritus.json";
 import { publicRequest } from "../../requestMethods";
 import CircularProgress from "@mui/material/CircularProgress";
 import { tahun } from "../../utils/naming";
@@ -99,7 +94,7 @@ const DataAdat = () => {
       field: "reg_num",
       headerName: "No. Regist",
       minWidth: 50,
-      // flex: 1,
+      flex: 1,
 
       renderCell: (params) => {
         return params.row.reg_num || "-";
@@ -109,7 +104,7 @@ const DataAdat = () => {
       field: "year",
       headerName: "Tahun",
       minWidth: 50,
-      // flex: 1,
+      flex: 1,
       renderCell: (params) => {
         return params.row.year || "-";
       },
@@ -119,7 +114,7 @@ const DataAdat = () => {
       field: "name",
       headerName: "Nama Adat",
       minWidth: 310,
-      // flex: 1,
+      flex: 1,
 
       renderCell: (params) => {
         return params.row.name;
@@ -129,7 +124,7 @@ const DataAdat = () => {
       field: "province",
       headerName: "Provinsi",
       minWidth: 200,
-      // flex: 1,
+      flex: 1,
       renderCell: (params) => {
         return params.row?.province?.name;
       },
@@ -139,7 +134,7 @@ const DataAdat = () => {
       field: "desc",
       headerName: "Deskripsi",
       minWidth: 400,
-      // flex: 1,
+      flex: 1,
       renderCell: (params) => {
         return params.row.desc || "-";
       },

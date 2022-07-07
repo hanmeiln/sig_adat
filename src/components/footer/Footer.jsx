@@ -3,10 +3,10 @@ import '../footer/Footer.scss';
 
 const Footer = () => {
 return (
-	<div className='Box'>
-	    <div className='Container'>
-            <div className='Heading'>Sistem Informasi Geografis Peta Adat Istiadat</div>
-            <div className='Body'>Copyright 2022 • All rights reserved • Hana Meilina Fauziyyah</div>
+	<div className='box'>
+	    <div className='containerr'>
+            <div className='heading'>Sistem Informasi Geografis Peta Adat Istiadat</div>
+            <div className='body'>Copyright 2022 • All rights reserved • Hana Meilina Fauziyyah</div>
         </div>
 	</div>
 );
