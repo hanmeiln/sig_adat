@@ -23,16 +23,10 @@ const CultureCard = ({ culture }) => {
                 <div className="info-wrap">
                     <div className="info-top">
                         <div className="infos">
-                            {/* <CalendarTodayIcon className="icon" /> */}
-                            Tahun : 
-                            {culture.year ? culture.year : "-"}
+                            {"Tahun : " + culture?.year || "-"}
                         </div>
                         <div className="infos">
-                            {/* <LocationOnIcon className="icon" /> */}
-                            Provinsi : 
-                            {culture.province
-                                ? culture.province.name
-                                : "-"}
+                            {"Provinsi : " + culture?.province?.name || "-"}
                         </div>
                     </div>
                     <a

@@ -93,7 +93,7 @@ const DetailAdat = () => {
                             culture.imgs.length > 0 ? (
                             <Gallery images={culture.imgs} />
                         ) : (
-                            "Belum ada foto-foto tentang adat ini"
+                            " "
                         )
                         }
                         </div>
@@ -108,7 +108,7 @@ const DetailAdat = () => {
                                           src={video}
                                       ></iframe>
                                   ))
-                                : "Belum ada video tentang permainan ini"}
+                                : " "}
                         </div>
                     )}''
                 </div>
