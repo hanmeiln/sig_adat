@@ -18,7 +18,7 @@ const Widget = ({ type }) => {
             data = {
                 title: "Data Adat Istiadat",
                 isMoney: true,
-                amount: 1.624,
+                amount: 1.621,
             };
             break;
         case "provinsi":
