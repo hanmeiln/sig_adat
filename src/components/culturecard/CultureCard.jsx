@@ -45,7 +45,6 @@ const CultureCard = ({ culture }) => {
                 <div className="info-bottom">
                     <a
                         className="button"
-                        target="_blank"
                         href={`/dataadat/${culture._id}`}
                         rel="noreferrer"
                     >

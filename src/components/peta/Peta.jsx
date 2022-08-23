@@ -58,9 +58,9 @@ const Peta = ({ setProvince }) => {
 
   const onEachCountry = (country, layer) => {
     if (country.properties.total) {
-      if (country.properties.total >= calc.high) {
+      if (country.properties.total > calc.high) {
         layer.options.fillColor = "green";
-      } else if (country.properties.total <= calc.low) {
+      } else if (country.properties.total < calc.low) {
         layer.options.fillColor = "red";
       } else {
         layer.options.fillColor = "yellow";
